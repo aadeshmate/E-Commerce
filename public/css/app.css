@@ -1,0 +1,47 @@
+:root{
+    --main-color:#3A0CA3;
+}
+
+
+main{
+    margin-top: 5px;
+    font-family: Snell Roundhand, cursive;
+}
+
+.card{
+    margin: 10px auto;
+    text-align: left;
+    /* text-shadow: 0px 0px 3px gray; */
+
+}
+.card h5{
+    text-align: left;
+    font-weight: 700;
+}
+.card img{
+    height: 200px;
+    padding: 8px;
+}
+.btn-outline-primary{
+    color: var(--main-color);
+}
+.btn-outline-primary:hover{
+    background-color: var(--main-color);
+}
+.fa-rupee-sign{
+    font-size: 18px;
+    margin-right: 10px;
+}
+.show-card{
+    width: 30rem;
+}
+
+.show-card img{
+    height: 20rem;
+}
+
+@media screen and (max-width:400px){
+    .show-card{
+        width: 16rem;        
+    }
+}
